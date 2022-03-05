@@ -148,6 +148,7 @@ header {
 .card p {
   font-size: 2rem;
   line-height: 3rem;
+  white-space: nowrap;
   margin-top: 1rem;
 }
 
@@ -296,6 +297,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    justify-content: center;
   }
 
   #data-table {
